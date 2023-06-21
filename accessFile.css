@@ -15,10 +15,11 @@
       color: #fff !important;
     }
 
-   .headerGame{
-    color:white;
-    text-align:start;
-   
-    
+   .headerTitle{
+    color:red; 
+    margin-left: 20%;
+    font-size: 2rem;
     
    }
+
+   

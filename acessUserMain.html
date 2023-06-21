@@ -23,10 +23,10 @@
       <!-- Navbar brand -->
 
       
-      <!-- Link to the code for this project on my personal github -->
+      <!-- Link to the code for this project on my personal github
       <a class="navbar-brand nav-link" target="_blank" href="https://github.com/Aj518480/userAccessProject"> 
         <strong class="headerGame">Can you save.. everyone?</strong>
-       </a>
+       </a> -->
       
         <ul class="navbar-nav d-flex flex-row">
           
@@ -51,7 +51,16 @@
             </a>
           </li>
         </ul>
+<!-- Placed it here for now but it seems it wont work with different size device may have to revisit this again -->
+        <div class="container-fluid">
+        <!-- Link to the code for this project on my personal github -->
+      <a class="headerTitle" target="_blank" href="https://github.com/Aj518480/userAccessProject"> 
+        <strong class="headerGame">Can you save.. everyone?</strong>
+       </a>
+       </div>
+
       </div>
+      
     </div>
   </nav>
   
@@ -67,10 +76,13 @@
             <form class="bg-white  rounded-5 shadow-5-strong p-5">
               
               <h7>Picture of Bomb and Timer will go in this space</h7>
-              <!-- Email input -->
+              <!-- User input to stop the Detonator limits them to 6 characters-->
               <div class="form-outline mb-4">
-                <input type="userInput" id="form1Example1" class="form-control" />
-                <label class="form-label" for="form1Example1">Code</label>
+                <div class="form-outline">
+                  <input type="text" id="form16" class="form-control" data-mdb-showcounter="true" maxlength="6" />
+                  <label class="form-label" for="form16">Enter Access Code</label>
+                  <div class="form-helper"></div>
+                </div>
               </div>
 
               
