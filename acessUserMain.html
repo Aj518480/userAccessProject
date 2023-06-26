@@ -15,6 +15,9 @@
   <link
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
     rel="stylesheet"/>
+  <!-- JQuery CDN Link -->
+  <script 
+    src="jquery-3.6.4.min.js"></script>
   <!--End of Links-->
 
   <!-- Navbar -->
@@ -89,18 +92,19 @@
                   </div>
                <!-- Here will be the time clock when I build the countdown clock -->
                  <div class="col-md-6">
-                      <img src="file:///C:/Users/allis/3D Objects/Desktop/userAccessProject/userAccessProject/bombClipArt.png"
-                      alt="bombClipArt" style="width:50%;">
+                      <div class="timerBox">
+                        <div class="timer">20</div>
+                      </div>
                     </div>
                   </div>
                 </div>
               <br>
               <!-- .col-md- -->
               <!-- User input to stop the Detonator limits them to 6 characters-->
-              <div class="form-outline mb-4">
+              <div class="form-outline">
                 <div class="form-outline">
-                  <input type="text" id="form16" class="form-control" data-mdb-showcounter="true" maxlength="6" />
-                  <label class="form-label" for="form16">Enter Access Code</label>
+                  <input type="number" id="typeNumber" class="form-control"data-mdb-showcounter="true" maxlength="6" />
+                  <label class="form-label" for="typeNumber">Enter Access Code</label>
                   <div class="form-helper"></div>
                 </div>
               </div>

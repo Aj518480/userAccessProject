@@ -1,28 +1,38 @@
 
-    #intro {
-      background-image: url(https://mdbootstrap.com/img/new/fluid/city/008.jpg);
-      height: 100vh;
+ #intro {
+  background-image: url(https://mdbootstrap.com/img/new/fluid/city/008.jpg);
+  height: 100vh;
     }
-
-    /* Height for devices larger than 576px */
-    @media (min-width: 992px) {
-      #intro {
-        margin-top: -58.59px;
+ /* Height for devices larger than 576px */
+@media (min-width: 992px) {
+ #intro {
+     margin-top: -58.59px;
       }
     }
 
-    .navbar .nav-link {
-      color: #fff !important;
-    }
+.navbar .nav-link {
+  color: #fff !important;
+}
 
-   .headerTitle{
-    color:red; 
-    margin-left: 15%;
-    font-size: 2rem;
+.headerTitle{
+  color:red; 
+  margin-left: 15%;
+  font-size: 2rem;
+}
+#accessCodes{
+  color:red;
+}
+.timerBox{
+  width:150px;
+  height:150px;
+  background-color:black;
+  border-radius: 20px;
+  border-width: 20px;
+}
+.timer{
+  color:white;
+  padding: 55px;
+  font-size: 35px;
 
-   }
-   #accessCodes{
-    color:red;
-   }
-
+}
    
