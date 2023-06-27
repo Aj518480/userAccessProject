@@ -1,15 +1,50 @@
 
-//sudo coding//
-//Once the page had loaded for the user
-// I want the main button start with the word "start" then have an onclick listener on so it can listen to change to word "enter" to enter the access code.
-//Once the onclick listener has go off I want the timer to start counting down from 30 
-//this will require a function to make a countdown clock
-//use jquery to put it on the page
+
+// Global Variables
+let game = {
+  counter: 30,
+  randomCodes:[],
+  chosenCode:"",
+}
+ 
+//Button clicked start timer
+//Once the onclick listener has go off I want the timer to start counting down from 30 this will require a function to make a countdown clock
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("I ran"); 
+  });
+  countdown();
+  alert("i made here")
+});
+//Timer
+//decrement counter for timer to go down from 30
+//display timer to page using Jquery
+//When the timer is reaches 0
+//Resets timer 
+const countdown = () =>
+  let timer = setInterval(game.counter, 30000);
+  game.counter--;
+  $(".timer").append(game.counter);
+  if (game.counter === 0) {
+      
+      clearInterval(game.counter)
+      alert("everyone died")
+      }
+
+  else{
+    elem.innerHTML = .timer+ ' seconds remaining'; }
+  }
 
 //this will need a function to make an array of 9 randomize numbers 
 //and the 9 randomize number to appear on the page.
-//(post on the page using jquery)
+const randomCodeGenerator = () =>
+
+ Math.floor(Math.random())
+
+
 //put these array of randomize number in a global var so it can be compared for later use.
+
+
 //then grab this array into a different function and it can pick random from the array
 // putting this number in a global variable so the conditional can see if it is the match number.
 //I need to set a few conditionals
